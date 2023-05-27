@@ -1,0 +1,66 @@
+.PassengerDeclaration{
+    margin: 20px 20px 20px 20px;
+}
+
+h2{
+    text-align: center;
+}
+.block_gray{
+    border: solid #eaeaea 1px;
+    border-radius: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+.block_content{
+    padding: 0px 10px 10px 10px;
+}
+
+.info{
+    border: solid #d9f2f7 1px;
+    border-radius: 5px;
+    margin: 0px 0px 20px 0px;
+}
+
+.info_content{
+    margin: 10px 10px 10px 10px;
+}
+button{
+    color: white;
+    background-color: #5bc0de;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 7px 7px 7px;
+    margin: 15px 10px 10px 40%;
+}
+
+.blue_header{
+    background-color: #d9edf7;
+    padding: 10px 10px 10px 20px;
+    border-radius: 5px;
+}
+
+.gray_header{
+    background-color: #f5f5f5;
+    padding: 10px 10px 10px 20px;
+    border-radius: 5px;
+}
+
+.input{
+    box-sizing:border-box;
+    width: 95%;
+    background-color: #eeeeee;
+    margin: 10px 10px 3px 0px;
+    border-radius: 4px;
+    border: solid #e1e1e1 1px;
+    padding: 6px 6px 6px 6px;
+
+}
+
+.white_input{
+    background-color: white;
+    margin: 10px 5px 3px 5px;
+    border-radius: 4px;
+    border: solid #e1e1e1 1px;
+    padding: 6px 6px 6px 6px;
+}
+
