@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Таможенный помощник",
+  "name": "Таможенный помощник",
   "icons": [
     {
       "src": "assets/manifest-icon-192.maskable.png",
@@ -34,6 +34,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#006a39",
+  "background_color": "#006a39"
 }
