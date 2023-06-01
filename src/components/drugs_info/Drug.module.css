@@ -5,3 +5,8 @@
 h1{
     text-align: center;
 }
+
+.redText{
+    color:red;
+    font-weight: bold;
+}
