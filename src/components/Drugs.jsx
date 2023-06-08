@@ -6,6 +6,7 @@ import Corvalolum from "./drugs_info/Corvalolum";
 import Codeine from "./drugs_info/Codeine";
 import Menu from "./Menu";
 import Marijuana from "./drugs_info/Marijuana";
+import NotFound from "./drugs_info/NotFound";
 
 const Drugs = () => {
     const[currentComponent, setCurrentComponent] = useState('');
@@ -14,20 +15,25 @@ const Drugs = () => {
         Cirrus: <Cirrus/>,
         Corvalolum: <Corvalolum/>,
         Codeine: <Codeine/>,
-        Marijuana: <Marijuana/>
+        Marijuana: <Marijuana/>,
+        NotFound: <NotFound/>
     }
     const drawComponent = (e) =>{
-        console.log(nameField.current.value)
-        if (nameField.current.value.toLowerCase() == "tylol hot")
+        if (nameField.current.value.toLowerCase().includes("tylol hot"))
             setCurrentComponent('TylolHot')
-        if (nameField.current.value.toLowerCase() == "cirrus")
+        else
+        if (nameField.current.value.toLowerCase().includes("cirrus"))
             setCurrentComponent('Cirrus')
-        if (nameField.current.value.toLowerCase() == "корвалол")
+        else
+        if (nameField.current.value.toLowerCase().includes("корвалол"))
             setCurrentComponent('Corvalolum')
-        if (nameField.current.value.toLowerCase() == "кодеин")
+        else
+        if (nameField.current.value.toLowerCase().includes("кодеин"))
             setCurrentComponent('Codeine')
-        if (nameField.current.value.toLowerCase() == "марихуана")
+        else
+        if (nameField.current.value.toLowerCase().includes("марихуана"))
             setCurrentComponent('Marijuana')
+        else setCurrentComponent('NotFound')
     }
 
     const nameField = useRef();
